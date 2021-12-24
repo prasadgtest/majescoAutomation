@@ -1,0 +1,6 @@
+majescoTests\MajescoTest.class
+utils\extentReportsUtils\ExtentManager.class
+utils\extentReportsUtils\ExtentTestManager.class
+majescoTests\MajescoBaseTest.class
+majescoTests\MajescoAPITest.class
+utils\TNGListeners\TestNGListeners.class

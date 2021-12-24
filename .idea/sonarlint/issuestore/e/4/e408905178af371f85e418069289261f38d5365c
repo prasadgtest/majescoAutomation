@@ -1,0 +1,13 @@
+
+m
+java:S1104"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ
+f
+java:S1104"PMake wait a static final constant or non-public and provide accessors if needed.(ÇªŠÄ
+{
+java:S1488Z"`Immediately return this expression instead of assigning it to the temporary variable "elements".(‡’’Íùÿÿÿÿ
+Œ
+java:S1845"vRename field "wait" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(ÇªŠÄ
+M
+java:S1117P"8Rename "wait" which hides the field declared at line 13.(áµ£$
+M
+java:S1117X"8Rename "wait" which hides the field declared at line 13.(áµ£$

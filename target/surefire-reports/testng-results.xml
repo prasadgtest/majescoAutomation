@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Google Application Launched Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="MajescoTestAutomation (0)" duration-ms="6119" started-at="2021-12-24T17:58:34 IST" finished-at="2021-12-24T17:58:40 IST">
+    <groups>
+      <group name="API">
+        <method signature="MajescoAPITest.getKey(java.lang.reflect.Method)[pri:0, instance:majescoTests.MajescoAPITest@305fd85d]" name="getKey" class="majescoTests.MajescoAPITest"/>
+      </group> <!-- API -->
+    </groups>
+    <test name="MajescoAPI" duration-ms="6119" started-at="2021-12-24T17:58:34 IST" finished-at="2021-12-24T17:58:40 IST">
+      <class name="majescoTests.MajescoAPITest">
+        <test-method status="PASS" signature="getKey(java.lang.reflect.Method)[pri:0, instance:majescoTests.MajescoAPITest@305fd85d]" name="getKey" duration-ms="6116" started-at="2021-12-24T17:58:34 IST" description="Get the value for API Activity" finished-at="2021-12-24T17:58:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackson.core.JsonProcessingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getKey -->
+      </class> <!-- majescoTests.MajescoAPITest -->
+    </test> <!-- MajescoAPI -->
+  </suite> <!-- MajescoTestAutomation (0) -->
+  <suite name="MajescoTestAutomation" duration-ms="41458" started-at="2021-12-24T17:57:52 IST" finished-at="2021-12-24T17:58:34 IST">
+    <groups>
+      <group name="Web">
+        <method signature="MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method)[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="googleLaunchWebAppln" class="majescoTests.MajescoTest"/>
+        <method signature="MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method)[pri:1, instance:majescoTests.MajescoTest@6e06451e]" name="searchMajescoInGoogleSearch" class="majescoTests.MajescoTest"/>
+        <method signature="MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method)[pri:2, instance:majescoTests.MajescoTest@6e06451e]" name="verifyAboutMajescoPageDisplayed" class="majescoTests.MajescoTest"/>
+      </group> <!-- Web -->
+    </groups>
+    <test name="MajescoUI" duration-ms="41458" started-at="2021-12-24T17:57:52 IST" finished-at="2021-12-24T17:58:34 IST">
+      <class name="majescoTests.MajescoTest">
+        <test-method status="PASS" signature="classLevelSetup()[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="classLevelSetup" is-config="true" duration-ms="20202" started-at="2021-12-24T17:57:52 IST" finished-at="2021-12-24T17:58:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="methodLevelSetup" is-config="true" duration-ms="47" started-at="2021-12-24T17:58:12 IST" finished-at="2021-12-24T17:58:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="googleLaunchWebAppln(java.lang.reflect.Method)[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="googleLaunchWebAppln" duration-ms="3936" started-at="2021-12-24T17:58:12 IST" description="Navigate to Google Web Application" finished-at="2021-12-24T17:58:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Google Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleLaunchWebAppln -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="methodLevelSetup" is-config="true" duration-ms="2" started-at="2021-12-24T17:58:16 IST" finished-at="2021-12-24T17:58:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="searchMajescoInGoogleSearch(java.lang.reflect.Method)[pri:1, instance:majescoTests.MajescoTest@6e06451e]" name="searchMajescoInGoogleSearch" duration-ms="7332" started-at="2021-12-24T17:58:16 IST" description="Search for Majesco in Google Web Application" finished-at="2021-12-24T17:58:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMajescoInGoogleSearch -->
+        <test-method status="PASS" signature="verifyAboutMajescoPageDisplayed(java.lang.reflect.Method)[pri:2, instance:majescoTests.MajescoTest@6e06451e]" name="verifyAboutMajescoPageDisplayed" duration-ms="6434" started-at="2021-12-24T17:58:24 IST" description="Verify the About Majesco page is Displayed" finished-at="2021-12-24T17:58:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutMajescoPageDisplayed -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="methodLevelSetup" is-config="true" duration-ms="0" started-at="2021-12-24T17:58:24 IST" finished-at="2021-12-24T17:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:majescoTests.MajescoTest@6e06451e]" name="teardown" is-config="true" duration-ms="2311" started-at="2021-12-24T17:58:31 IST" finished-at="2021-12-24T17:58:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- majescoTests.MajescoTest -->
+    </test> <!-- MajescoUI -->
+  </suite> <!-- MajescoTestAutomation -->
+</testng-results>

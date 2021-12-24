@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MajescoTestAutomation__0_">
+              <span class="suite-name border-passed">MajescoTestAutomation (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MajescoTestAutomation__0_">
+                    <span>D:\QA_AUTOMATION\MajescoAutomation\testngAPI.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MajescoTestAutomation__0_">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MajescoTestAutomation__0_">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MajescoTestAutomation__0_">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MajescoTestAutomation__0_">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MajescoTestAutomation__0_">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MajescoTestAutomation__0_">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MajescoTestAutomation__0_" class="hide-methods passed suite-MajescoTestAutomation__0_"> (hide)</a> <!-- hide-methods passed suite-MajescoTestAutomation__0_ -->
+                      <a href="#" panel-name="suite-MajescoTestAutomation__0_" class="show-methods passed suite-MajescoTestAutomation__0_"> (show)</a> <!-- show-methods passed suite-MajescoTestAutomation__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-MajescoTestAutomation__0_">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MajescoTestAutomation__0_" title="majescoTests.MajescoAPITest" hash-for-method="getKey(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackso...)">getKey(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackso...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MajescoTestAutomation__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MajescoTestAutomation">
+              <span class="suite-name border-passed">MajescoTestAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MajescoTestAutomation">
+                    <span>D:\QA_AUTOMATION\MajescoAutomation\testngUI.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MajescoTestAutomation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MajescoTestAutomation">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MajescoTestAutomation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MajescoTestAutomation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MajescoTestAutomation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MajescoTestAutomation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MajescoTestAutomation" class="hide-methods passed suite-MajescoTestAutomation"> (hide)</a> <!-- hide-methods passed suite-MajescoTestAutomation -->
+                      <a href="#" panel-name="suite-MajescoTestAutomation" class="show-methods passed suite-MajescoTestAutomation"> (show)</a> <!-- show-methods passed suite-MajescoTestAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-MajescoTestAutomation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MajescoTestAutomation" title="majescoTests.MajescoTest" hash-for-method="googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))">googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MajescoTestAutomation" title="majescoTests.MajescoTest" hash-for-method="searchMajescoInGoogleSearch(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method))">searchMajescoInGoogleSearch(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MajescoTestAutomation" title="majescoTests.MajescoTest" hash-for-method="verifyAboutMajescoPageDisplayed(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method))">verifyAboutMajescoPageDisplayed(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MajescoTestAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MajescoTestAutomation__0_" class="panel MajescoTestAutomation__0_">
+          <div class="suite-MajescoTestAutomation__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">majescoTests.MajescoAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getKey(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackso...)">
+                  </a> <!-- getKey(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackso...) -->
+                  <span class="method-name">getKey</span>
+                  <span class="parameters">(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackson.core.JsonProcessingException)</span>
+                  <em>
+(Get the value for API Activity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MajescoTestAutomation__0_-class-passed -->
+        </div> <!-- panel MajescoTestAutomation__0_ -->
+        <div panel-name="suite-MajescoTestAutomation" class="panel MajescoTestAutomation">
+          <div class="suite-MajescoTestAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">majescoTests.MajescoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))">
+                  </a> <!-- googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method)) -->
+                  <span class="method-name">googleLaunchWebAppln</span>
+                  <span class="parameters">(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))</span>
+                  <em>
+(Navigate to Google Web Application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchMajescoInGoogleSearch(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method))">
+                  </a> <!-- searchMajescoInGoogleSearch(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method)) -->
+                  <span class="method-name">searchMajescoInGoogleSearch</span>
+                  <span class="parameters">(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method))</span>
+                  <em>
+(Search for Majesco in Google Web Application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAboutMajescoPageDisplayed(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method))">
+                  </a> <!-- verifyAboutMajescoPageDisplayed(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method)) -->
+                  <span class="method-name">verifyAboutMajescoPageDisplayed</span>
+                  <span class="parameters">(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method))</span>
+                  <em>
+(Verify the About Majesco page is Displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MajescoTestAutomation-class-passed -->
+        </div> <!-- panel MajescoTestAutomation -->
+        <div panel-name="test-xml-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA_AUTOMATION\MajescoAutomation\testngAPI.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;MajescoTestAutomation (0)&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TNGListeners.TestNGListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;MajescoAPI&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;majescoTests.MajescoAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MajescoAPI --&gt;
+&lt;/suite&gt; &lt;!-- MajescoTestAutomation (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QA_AUTOMATION\MajescoAutomation\testngUI.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;MajescoTestAutomation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TNGListeners.TestNGListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;MajescoUI&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;majescoTests.MajescoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MajescoUI --&gt;
+&lt;/suite&gt; &lt;!-- MajescoTestAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MajescoTestAutomation (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MajescoAPI (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MajescoTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MajescoUI (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MajescoTestAutomation (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">API</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getKey</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MajescoTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Web</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">googleLaunchWebAppln</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchMajescoInGoogleSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAboutMajescoPageDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MajescoTestAutomation (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MajescoTestAutomation__0_');
+function tableData_MajescoTestAutomation__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getKey')
+data.setCell(0, 2, 'majescoTests.MajescoAPITest')
+data.setCell(0, 3, 6116);
+window.suiteTableData['MajescoTestAutomation__0_']= { tableData: data, tableDiv: 'times-div-MajescoTestAutomation__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-MajescoTestAutomation__0_">
+              </div> <!-- times-div-MajescoTestAutomation__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MajescoTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MajescoTestAutomation');
+function tableData_MajescoTestAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchMajescoInGoogleSearch')
+data.setCell(0, 2, 'majescoTests.MajescoTest')
+data.setCell(0, 3, 7332);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAboutMajescoPageDisplayed')
+data.setCell(1, 2, 'majescoTests.MajescoTest')
+data.setCell(1, 3, 6434);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'googleLaunchWebAppln')
+data.setCell(2, 2, 'majescoTests.MajescoTest')
+data.setCell(2, 3, 3936);
+window.suiteTableData['MajescoTestAutomation']= { tableData: data, tableDiv: 'times-div-MajescoTestAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-MajescoTestAutomation">
+              </div> <!-- times-div-MajescoTestAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MajescoTestAutomation (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MajescoTestAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Google Application Launched Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MajescoTestAutomation__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">majescoTests.MajescoAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getKey(public void majescoTests.MajescoAPITest.getKey(java.lang.reflect.Method) throws com.fasterxml.jackso...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MajescoTestAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">majescoTests.MajescoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classLevelSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">20219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">googleLaunchWebAppln(public void majescoTests.MajescoTest.googleLaunchWebAppln(java.lang.reflect.Method))</span>
+                <span class="method-start">20267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">24380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchMajescoInGoogleSearch(public void majescoTests.MajescoTest.searchMajescoInGoogleSearch(java.lang.reflect.Method))</span>
+                <span class="method-start">24382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup</span>
+                <span class="method-start">31914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAboutMajescoPageDisplayed(public void majescoTests.MajescoTest.verifyAboutMajescoPageDisplayed(java.lang.reflect.Method))</span>
+                <span class="method-start">31914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">39126 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
